@@ -1,6 +1,18 @@
 # FE-03 / FE-07: Tool Results & Structured Output in the UI
 
-> Generative UI Application demonstrating server-side AI tools defined with Zod schemas, 4-state lifecycle visualization (`input-streaming`, `input-available`, `output-available`, `output-error`), Framer Motion 200ms morphing transitions, SVG metric gauge charts, interactive user confirmation tools, and designed error handling.
+[![Next.js](https://img.shields.io/badge/Next.js-16.2-black?logo=nextdotjs)](https://nextjs.org/)
+[![React 19](https://img.shields.io/badge/React-19.0-61DAFB?logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS-v4.0-38BDF8?logo=tailwindcss)](https://tailwindcss.com/)
+[![Vercel AI SDK](https://img.shields.io/badge/Vercel_AI_SDK-v4.0-black?logo=vercel)](https://sdk.vercel.ai/)
+[![Zod Schema](https://img.shields.io/badge/Zod-Schema_Validation-3E67B1?logo=zod)](https://zod.dev/)
+
+> **Generative UI Application** demonstrating server-side AI tools defined with Zod schemas, 4-state lifecycle visualization (`input-streaming`, `input-available`, `output-available`, `output-error`), Framer Motion 200ms morphing transitions, SVG metric gauge charts, interactive user confirmation tools, and designed error handling.
+
+---
+
+> [!NOTE]
+> **Why It Matters**: Real AI products call tools and return structured data your UI must render as interactive components. This generative UI skill separates a basic chat wrapper from a modern AI application.
 
 ---
 
@@ -8,7 +20,7 @@
 
 ### 1. `scoreLead` (FE1 Lead Scoring Tool)
 
-- **Description**: Calculates lead qualification score (0-100), lead tier (`HOT`, `WARM`, `COLD`), breakdown metrics, estimated revenue, and action recommendations.
+- **Description**: Calculates lead qualification score (0–100), lead tier (`HOT`, `WARM`, `COLD`), breakdown metrics, estimated revenue, and action recommendations.
 - **Zod Schema**:
   ```ts
   z.object({
@@ -126,6 +138,11 @@
 
 ---
 
+> [!TIP]
+> **State Machine Motion**: Transitions between tool states use Framer Motion 200ms morphing crossfades (`mode="wait"`), ensuring smooth visual feedback without layout jumps.
+
+---
+
 ## 🚀 Running Locally
 
 1. **Install Dependencies**:
@@ -140,3 +157,8 @@
 
 3. **Open Browser**:
    Navigate to [http://localhost:3000](http://localhost:3000)
+
+---
+
+> [!IMPORTANT]
+> **Repository Link**: [GitHub Repository](https://github.com/CoderGUY47/FE-07-Tool-results-and-structured-output-in-the-UI)
