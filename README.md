@@ -11,6 +11,12 @@
 
 ---
 
+## 📸 Application UI Preview
+
+![Oxie AI Workbench UI Preview](./public/images/home-ui.png)
+
+---
+
 > [!NOTE]
 > **Why It Matters**: Real AI products call tools and return structured data your UI must render as interactive components. This generative UI skill separates a basic chat wrapper from a modern AI application.
 
